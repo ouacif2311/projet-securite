@@ -1,0 +1,36 @@
+<body style="background-color:#e6ebef;"><CENTER>
+ <form>
+   <p>OUACIF Nadia <br> Master1 Informatique</p>
+
+ </form>
+ <h1> Créer un compte </h1>
+
+
+
+<img src="https://media.istockphoto.com/photos/art-swan-on-the-water-at-sunrise-picture-id168791357" height="100px" width="200px" />
+<br>
+<br>
+<form action="{{ url_for('ajouterCompteToDatabase') }}" method="post">
+    <div> 
+        <label for="identifiant">Identifiant :</label>
+        <input type="text" id="identifiant" name="identifiant">
+    </div>
+    <br>
+    <div id="mail">
+        <label for="email">Email :</label>
+        <input type="text" id="email" name="email" placeholder="Pseudo@hotmail.com"><br>
+    </div><br>
+
+    <label for="pass">Mot de passe : </label>
+    <input type="password" id="pass" name="password"
+           minlength="8" required><label for="pass"> (8 charactère minimum )</label>
+    <br>
+    <br>
+
+    <div>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Ajout compte" />
+    </div>
+</form>
+</CENTER>
+</body>

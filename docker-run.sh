@@ -1,0 +1,1 @@
+docker run -d --name my-postgres-image -p 5433:5432 -e "POSTGRES_PASSWORD=0000" -e "POSTGRES_USER=cygne" -e "POSTGRES_DB=database" local/postgres-image
