@@ -18,18 +18,18 @@
 2.7.2. ajout-compte.html : pour ajouter des comptes à ma base de données 2.7.3. BaseDonnée.html
 ### 3. L’exécutiondeprojet:
 Pour exécuter ce projet il faut d’abord installer Python et installer les bibliothèques mention en haut (1.1.1), et il faut installer docker, pour l’exécution tous les lignes de commande de docker j’ai créé les fichiers .sh , donc il suffit juste de taper ce quelque ligne de commande sur terminal pour appeler les fichiers .sh et l’exécuter :
-##### sh create-postgresql-image.sh
-##### Docker image ls pour vérifier la création de mon image
+##### - sh create-postgresql-image.sh
+##### - Docker image ls pour vérifier la création de mon image
 (local/postgres-image)
-##### sh docker-run.sh
-##### docker container ls pour vérifier le running de mon container
-##### docker exec -ti my-postgres-image sh pour accéder à l’intérieur de
+##### - sh docker-run.sh
+##### - docker container ls pour vérifier le running de mon container
+##### - docker exec -ti my-postgres-image sh pour accéder à l’intérieur de
 container
-##### psql database cygne pour accéder a ma base de donnée
-##### .\create-postgresql-image.sh
-##### Select * from accounts ; pour afficher ma table de données créer
+##### - psql database cygne pour accéder a ma base de donnée
+##### - .\create-postgresql-image.sh
+##### - Select * from accounts ; pour afficher ma table de données créer
 Nadia OUACIF – Mastre 1. Guide de projet N°1 : Sécurité des systèmes informatique
 ### 4. Lesclés:
-##### Le mot de passe de postgres : 0000
-##### Le nom d’utilisateur (user-name) : cygne
-##### Le nom de ma base de données (Data-Base) : database
+##### - Le mot de passe de postgres : 0000
+##### - Le nom d’utilisateur (user-name) : cygne
+##### - Le nom de ma base de données (Data-Base) : database
